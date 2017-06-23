@@ -1,2 +1,3 @@
 # ExodusRepo
-Repository in Arbeit. Repo ist zur Zeit Funktionslos
+Wir supporten primär nur deutsche index seiten
+Primary we support only german index sites
