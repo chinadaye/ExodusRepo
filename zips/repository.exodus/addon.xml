@@ -5,14 +5,14 @@
         <info compressed="false">https://github.com/lastship/ExodusRepo/raw/master/addons.xml</info>
         <checksum>https://github.com/lastship/ExodusRepo/raw/master/addons.xml.md5</checksum>
         <datadir zip="true">https://github.com/lastship/ExodusRepo/raw/master/zips/</datadir>
-	    </dir>
-       <dir>
-		      <info compressed="false">https://github.com/lastship/tva-common/raw/master/addons.xml</info>
-		     <checksum>https://github.com/lastship/tva-common/raw/master/addons.xml.md5</checksum>
+	</dir>
+        <dir>
+		<info compressed="false">https://github.com/lastship/tva-common/raw/master/addons.xml</info>
+		<checksum>https://github.com/lastship/tva-common/raw/master/addons.xml.md5</checksum>
 	       	<datadir zip="true">https://github.com/lastship/tva-common/raw/master/zips/</datadir>
-     </dir>
-</extension>
-<extension point="xbmc.addon.metadata">
+        </dir>
+ </extension>
+ <extension point="xbmc.addon.metadata">
 		<summary lang="en">Exodus repository</summary>
 		<description lang="en">Exodus repository</description>
 		<platform>all</platform>
