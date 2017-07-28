@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.lastship" version="1.1.0" name="lastship" provider-name="lastship">
+<addon id="plugin.video.exodus" version="3.1.25" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="repository.lastship" version="1.0.0" />
-		<import addon="script.lastship.artwork" version="1.0.4" />
-		<import addon="script.lastship.metadata" version="1.0.0" />
+		<import addon="repository.exodus" version="1.0.0" />
+		<import addon="script.exodus.artwork" version="1.0.4" />
+		<import addon="script.exodus.metadata" version="1.0.0" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
 		<import addon="script.module.metahandler" version="1.0.0" />
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="lastship.py">
+	<extension point="xbmc.python.pluginsource" library="exodus.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">lastship</summary>
-		<description lang="de">Wir suchen Entwickler. Bitte besuche [COLOR blue]http://lastship.square7.ch/forum/forumdisplay.php?fid=5[/COLOR] für Unterstützung und Fragen zu lastship! lastship FAQ bitte lesen. Beachte dabei, dass lastship nicht offizieller Teil des Media Players ist den du gerade verwendest und daher nicht von dem offiziellen Support-Kanäle abgedeckt wird, dieses Addon hat nichts zu tun mit dem Media-Player selbst, noch ist es dafür beabsichtigt, es handelt sich hierbei lediglich um ein Drittanbieter-Anwendung die dem System hinzugefügt wurde</description>
+		<summary lang="en">Exodus</summary>
+		<description lang="de">Wir suchen Entwickler. Bitte besuche [COLOR blue]http://xstream-addon.square7.ch/showthread.php?tid=1094[/COLOR] für Unterstützung und Fragen zu Exodus! Exodus FAQ bitte lesen. Beachte dabei, dass Exodus nicht offizieller Teil des Media Players ist den du gerade verwendest und daher nicht von dem offiziellen Support-Kanäle abgedeckt wird, dieses Addon hat nichts zu tun mit dem Media-Player selbst, noch ist es dafür beabsichtigt, es handelt sich hierbei lediglich um ein Drittanbieter-Anwendung die dem System hinzugefügt wurde</description>
 		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
 		<platform>all</platform>
-		<forum>http://lastship.square7.ch/forum/forumdisplay.php?fid=5</forum>
-		<source>https://github.com/lastship/plugin.video.lastship/</source>
+		<forum>http://xstream-addon.square7.ch/forumdisplay.php?fid=11</forum>
+		<source>https://github.com/lastship/plugin.video.exodus/</source>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -34,26 +34,26 @@
 	</extension>
 </addon>
 
-<addon id="script.lastship.artwork" version="1.0.5" name="lastship Artwork" provider-name="lastship">
+<addon id="script.exodus.artwork" version="1.0.5" name="Exodus Artwork" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the lastship Addon</summary>
-		<description>Themes for lastship are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<summary>Themes for the Exodus Addon</summary>
+		<description>Themes for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
 
-<addon id="script.lastship.metadata" version="1.0.0" name="lastship Metadata" provider-name="lastship">
+<addon id="script.exodus.metadata" version="1.0.0" name="Exodus Metadata" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the lastship Addon</summary>
-		<description>Metadata for lastship are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<summary>Metadata for the Exodus Addon</summary>
+		<description>Metadata for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
