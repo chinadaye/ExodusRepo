@@ -1,4 +1,6 @@
-# ExodusRepo
-Wir Pflegen primär nur deutsche index seiten. Zur Zeit haben wir keine Entwickler
+ExodusRepo
 
-Primary we support only german index sites. Momently we have no Developers
+Keine Updates mehr.Projekt gestoppt. Bitte verwende Covenant oder Lastship
+
+Project stopped. No Updates and Support
+
